@@ -1,0 +1,14 @@
+.details {
+  background: mediumseagreen;
+  color: white;
+  padding: 0.5em;
+  margin: 1em;
+  max-width: 18em;
+  text-align: left;
+  font-size: 0.875em;
+}
+
+.btn {
+  display: flex;
+  justify-content:space-evenly;
+}

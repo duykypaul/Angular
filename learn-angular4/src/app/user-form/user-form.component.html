@@ -1,0 +1,8 @@
+<input placeholder="enter your name" [(ngModel)] = "name" #txtUserName>
+<h3 [ngStyle] = "name.length % 2 === 0? evenStyle : oddStyle">
+  your name is : {{name}}
+</h3>
+<!-- <code>{{ txtUserName.value | json}}</code> -->
+<div [class] = "isHighLigth ? 'circle' : 'square'"></div>
+<div [class.circle] = "!isHighLigth" [class.square] = "isHighLigth"></div>
+<div [ngClass] = "currentClass"></div>
